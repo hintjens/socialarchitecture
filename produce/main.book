@@ -1,0 +1,55 @@
+#   Scalable C
+FILENAME=main
+AUTHOR=Pieter Hintjens
+TITLE=Social Architecture
+SUBTITLE=Building On-line Communities
+TITLENOTE=
+
+#   Page dimensions in cm
+WIDTH=13.97
+HEIGHT=21.59
+TOP=1.4
+BOTTOM=1.4
+INSIDE=2.3
+OUTSIDE=1.4
+
+#   Fonts
+HEADERFONT=EB Garamond
+BODYFONT=EB Garamond
+FIXEDFONT=MonospaceTypewriter
+TEXTHEIGHT=90%
+TEXTSIZE=11pt
+
+#   Copyright page
+EDITION=Edition 1.0: 5 May 2016
+ISBN=ISBN tbd
+DEDICATION=For my friends
+COPYRIGHT=Copyright © 2016 Pieter Hintjens
+LICENSE=Free to share and remix under CC-BY-SA-4.0
+TRADEMARKS=
+PUBLISHER=Published by Pieter Hintjens
+BLURB=Source repo is https://github.com/hintjens/socialarchitecture, pull requests are welcome.
+CREDITS1=
+CREDITS2=Cover font: Kontrapunkt by Bo Linnemann, Kontrapunkt A/S. Text fonts: EB Garamond by Georg Duffner, MonospaceTypewriter by Manfred Klein.
+PURCHASE=http://hintjens.com/books
+
+#   Author page
+BIOGRAPHY=Pieter Hintjens has been programming C since 1985. He is the author of many free software products written in C: Libero (1991), SFL (1996), Xitami (1998), OpenAMQ (2004). In 2007 he founded the ZeroMQ community. His github profile is https://github.com/hintjens.
+OTHERBOOKS=Other books by the same author: [http://www.amazon.com/ZeroMQ-Messaging-Applications-Pieter-Hintjens/dp/1449334067 "ZeroMQ - Messaging for Many Applications"] (O'Reilly), [http://cultureandempire.com "Culture and Empire: Digital Revolution"] (Amazon.com), [http://thepsychopathcode.com "The Psychopath Code"] (Amazon.com).
+
+#   Build index
+#INDEX=../index.txt
+
+#   Body content
+HEADER=Social Architecture
+BREAKS=chapter
+
+#   Content
+../ch00.txt
+../ch01.txt
+../ch02.txt
+../ch03.txt
+../ch04.txt
+../ch05.txt
+../ch06.txt
+../ch07.txt

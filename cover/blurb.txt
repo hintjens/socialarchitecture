@@ -1,0 +1,1 @@
+This book packages decades of my experience and practice in building on-line communities. This text originates from my books Culture and Empire, chapter 2, and ZeroMQ - The Guide, chapter 6. I've cleaned it up to fit our current practice.

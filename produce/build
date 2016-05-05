@@ -1,0 +1,11 @@
+#! /bin/bash
+
+mkmarkdown main.book
+mkgitbook main.book
+mkodt main.book
+md2html main.book
+#kindlegen main.opf
+ebook-convert main.mobi main.epub
+rm -rf output
+cp gitbook/*.md ../../gitbook/social-architecture/
+( cd ../../gitbook/social-architecture && git commit -a && git push origin master )
