@@ -87,21 +87,17 @@ I think this fight between individual expertise and collective intelligence play
 
 ++ Licensing and Ownership
 
-> The project SHALL use a share-alike license, such as the GPLv3 or a variant thereof (LGPL, AGPL), or the MPLv2.
+> The project SHALL use a share-alike license such as the MPLv2, or a GPLv3 variant thereof (GPL, LGPL, AGPL).
 
-I've already explained how full remixability creates better scale and why the GPL and its variants seems the optimal contract for remixable software. If you're a large business aiming to dump code on the market, you won't want C4, but then you won't really care about community either.
+I've already explained how full remixability creates better scale and why MPLv2 or GPL and its variants seems the optimal contract for remixable software. If you're a large business aiming to dump code on the market, you won't want C4, but then you won't really care about community either.
 
 > All contributions to the project source code ("patches") SHALL use the same license as the project.
 
-This removes the need for any specific license or contribution agreement for patches. You fork the GPL code, you publish your remixed version on GitHub, and you or anyone else can then submit that as a patch to the original code. BSD doesn't allow this. Any work that contains BSD code may also contain unlicensed proprietary code so you need explicit action from the author of the code before you can remix it.
+This removes the need for any specific license or contribution agreement for patches. You fork the MPLv2 or GPL code, you publish your remixed version on GitHub, and you or anyone else can then submit that as a patch to the original code. BSD doesn't allow this. Any work that contains BSD code may also contain unlicensed proprietary code so you need explicit action from the author of the code before you can remix it.
 
 > All patches are owned by their authors. There SHALL NOT be any copyright assignment process.
 
-Here we come to the key reason people trust their investments in ZeroMQ: it's logistically impossible to buy the copyrights to create a closed source competitor to ZeroMQ. iMatix can't do this either. And the more people that send patches, the harder it becomes. ZeroMQ isn't just free and open today--this specific rule means it will remain so forever. Note that it's not the case in all GPL projects, many of which still ask for copyright transfer back to the maintainers.
-
-> The project SHALL be owned collectively by all its Contributors.
-
-This is perhaps redundant, but worth saying: if everyone owns their patches, then the resulting whole is also owned by every contributor. There's no legal concept of owning lines of code: the "work" is at least a source file.
+Here we come to the key reason people trust their investments in ZeroMQ: it's logistically impossible to buy the copyrights to create a closed source competitor to ZeroMQ. iMatix can't do this either. And the more people that send patches, the harder it becomes. ZeroMQ isn't just free and open today--this specific rule means it will remain so forever. Note that it's not the case in all MPLv2/GPL projects, many of which still ask for copyright transfer back to the maintainers.
 
 > Each Contributor SHALL be responsible for identifying themselves in the project Contributor list.
 
@@ -137,7 +133,7 @@ This rule has two effects. The first is that it forces people to make minimal so
 
 For cross-platform projects, it is fair to ask that the patch works on the development box used by the contributor.
 
-> A patch commit message SHOULD consist of a single short (less than 50 character) line summarizing the change, optionally followed by a blank line and then a more thorough description.
+> * A patch commit message MUST consist of a single short (less than 50 characters) line stating the problem ("Problem: ...") being solved, followed by a blank line and then the proposed solution ("Solution: ...").
 
 This is a good format for commit messages that fits into email (the first line becomes the subject, and the rest becomes the email body).
 
@@ -247,10 +243,6 @@ In each case, OM has a better outcome than PM.
 
 In the majority case (patches that need further work), Optimistic Merging creates the conditions for mentoring and coaching. And indeed this is what we see in ZeroMQ projects, and is one of the reasons they are such fun to work on.
 
-> The Contributor MAY tag a user's issue as "Ready" after making a pull request for the issue.
-
-By default, GitHub offers the usual variety of issue tags, but with C4 we don't use them. Instead, we need just two labels, "Urgent" and "Ready". A contributor who wants another user to test an issue can then label it as "Ready".
-
 > The user who created an issue SHOULD close the issue after checking the patch is successful.
 
 When one person opens an issue, and another works on it, it's best to allow the original person to close the issue. That acts as a double-check that the issue was properly resolved.
@@ -259,9 +251,9 @@ When one person opens an issue, and another works on it, it's best to allow the 
 
 In essence, the goal here is to allow users to try patches rather than to spend time arguing pros and cons. As easy as it is to make a patch, it's as easy to revert it with another patch. You might think this would lead to "patch wars", but that hasn't happened. We've had a handful of cases in {{libzmq}} where patches by one contributor were killed by another person who felt the experimentation wasn't going in the right direction. It is easier than seeking up-front consensus.
 
-> Maintainers MAY commit changes to non-source documentation directly to the project.
+> Maintainers SHOULD close user issues that are left open without action for an uncomfortable period of time.
 
-This exit allows maintainers who are making release notes to push those without having to create an issue which would then affect the release notes, leading to stress on the space time fabric and possibly involuntary rerouting backwards in the fourth dimension to before the invention of cold beer. Shudder. It is simpler to agree that release notes aren't technically software.
+Just keep the issue tracker clean.
 
 ++ Branches and Releases
 

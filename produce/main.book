@@ -22,7 +22,7 @@ TEXTSIZE=11pt
 
 #   Copyright page
 EDITION=Edition 1.0: 5 May 2016
-ISBN=ISBN tbd
+ISBN=ISBN 978-1533112453
 DEDICATION=For my friends
 COPYRIGHT=Copyright © 2016 Pieter Hintjens
 LICENSE=Free to share and remix under CC-BY-SA-4.0
@@ -34,7 +34,7 @@ CREDITS2=Cover font: Kontrapunkt by Bo Linnemann, Kontrapunkt A/S. Text fonts: E
 PURCHASE=http://hintjens.com/books
 
 #   Author page
-BIOGRAPHY=Pieter Hintjens has been programming C since 1985. He is the author of many free software products written in C: Libero (1991), SFL (1996), Xitami (1998), OpenAMQ (2004). In 2007 he founded the ZeroMQ community. His github profile is https://github.com/hintjens.
+BIOGRAPHY=Pieter Hintjens is a programmer, writer, and thinker who has founded many on-line communities. In 2005 he led the European fight against software patents, helping thousands of activists to organize on-line. In 2007 he founded the successful and broad-ranging ZeroMQ community.
 OTHERBOOKS=Other books by the same author: [http://www.amazon.com/ZeroMQ-Messaging-Applications-Pieter-Hintjens/dp/1449334067 "ZeroMQ - Messaging for Many Applications"] (O'Reilly), [http://cultureandempire.com "Culture and Empire: Digital Revolution"] (Amazon.com), [http://thepsychopathcode.com "The Psychopath Code"] (Amazon.com).
 
 #   Build index
