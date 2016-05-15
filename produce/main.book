@@ -21,7 +21,7 @@ TEXTHEIGHT=90%
 TEXTSIZE=11pt
 
 #   Copyright page
-EDITION=Edition 1.0: 5 May 2016
+EDITION=Edition 1.1: 15 May 2016
 ISBN=ISBN 978-1533112453
 DEDICATION=For my friends
 COPYRIGHT=Copyright © 2016 Pieter Hintjens
