@@ -279,6 +279,6 @@ When a person or a business registers the name as a trademark, those incompatibl
 
 I've had this happen at least once in my own projects, and the trademark was the tool I used to stop the incompatible forks and punish the perpetrators. Trademark law is clear enough that saying "trademark violation" will stop 99% of cheats dead still. Producing a registration filing number stops 99% of the remainder.
 
-In a serious project like ZeroMQ you'll end up with three or four marks you want to register, over a period of five to ten years. Register only when it's worth it. That is, to protect real trademarks that you would be willing to defend in court. Consider that in the worst case you might have to spend ten or twenty times the cost of registration, to defend your mark. You might get that back, or you might now.
+In a serious project like ZeroMQ you'll end up with three or four marks you want to register, over a period of five to ten years. Register only when it's worth it. That is, to protect real trademarks that you would be willing to defend in court. Consider that in the worst case you might have to spend ten or twenty times the cost of registration, to defend your mark. You might get that back, or you might not.
 
 I hope this small brief has helped you understand trademarks, and how to use them (or not) in your open source projects. And, if someone claims you're infringing on their trademark, how to defend yourself. (Hint: ask them for a registration number.)
