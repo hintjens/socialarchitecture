@@ -66,5 +66,5 @@ The second thing is that just reversing the cult techniques isn't enough. It doe
 
 It is of course much cheaper and faster to do large-scale experiments with people on line than in the real world. To prove or disprove a recipe for building a community, all you have to do is create a space, define some rules for play, announce it to the world, and sit back and watch.
 
-My largest and most successful experiment to date, which I'll refer to often in this chapter, is the [http://zeromq.org ZeroMQ software community]. It has grown from a team in a Slovak cellar to a global community, and is used by thousands of organizations. Above all, ZeroMQ is entirely built and steered by its community: over a hundred contributors to the core library, and a hundred other projects around that.
+My largest and most successful experiment to date, which I'll refer to often in this book, is the [http://zeromq.org ZeroMQ software community]. It has grown from a team in a Slovak cellar to a global community, and is used by thousands of organizations. Above all, ZeroMQ is entirely built and steered by its community: over a hundred contributors to the core library, and a hundred other projects around that.
 
